@@ -10,6 +10,7 @@ import Registration from './components/Registration';
 
 
 
+
 function App() {
   
   return (
@@ -18,7 +19,7 @@ function App() {
         <Navbar />
         <SubNavbar />
         <Registration/>
-       
+   
       </>
     </Router>
   );

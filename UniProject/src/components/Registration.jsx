@@ -1,7 +1,8 @@
-
-
 import React from "react";
 import img1 from "../images/hec.jpg";
+import Signin from "../pages/Signin";
+import SignUp from "../pages/SignUp";
+
 
 const Registration = () => {
   return (
@@ -21,16 +22,17 @@ const Registration = () => {
           <div className="mt-4">
             <p className="font-bold">Description:</p>
             <p className="text-justify">
-              The Higher Education Commission (HEC) in collaboration with Special
-              Investment Facilitation Council (SIFC), Ministry of IT & Telecom
-              (MoITT), Pakistan Software Export Board (PSEB), Pakistan IT
-              Industry Association (P@SHA), and National Computing Education
+              The Higher Education Commission (HEC) in collaboration with
+              Special Investment Facilitation Council (SIFC), Ministry of IT &
+              Telecom (MoITT), Pakistan Software Export Board (PSEB), Pakistan
+              IT Industry Association (P@SHA), and National Computing Education
               Accreditation Council (NCEAC) is conducting a Centralized Test for
               the students of 7th Semester of CS & Related Disciplines through
               Virtual University Platform. This is part of an academia-industry
               co-opt program to facilitate the placement of talented IT students
-              in IT industry to acquire hands-on experience on latest technologies
-              for better job opportunities in the local and international market.
+              in IT industry to acquire hands-on experience on latest
+              technologies for better job opportunities in the local and
+              international market.
             </p>
           </div>
 
@@ -47,14 +49,19 @@ const Registration = () => {
             <ol className="list-decimal pl-5">
               <li>Student application submission through this portal.</li>
               <li>
-                Verification of registration details by the concerned Focal Person
-                of each university (by Focal Person).
+                Verification of registration details by the concerned Focal
+                Person of each university (by Focal Person).
               </li>
               <li>
                 Confirmation / Test details shall be forwarded by Virtual
                 University to the eligible candidates (by Virtual University).
               </li>
             </ol>
+          </div>
+          <div className="flex">
+          <Signin  />
+          <SignUp/>
+
           </div>
         </div>
       </div>
