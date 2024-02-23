@@ -1,31 +1,5 @@
 
 
-// import React from "react";
-// import img1 from "../images/logo.png";
-// import img2 from "../images/gop.png";
-// import backgroundImage from "../images/bg.jpg"; 
-
-// const Navbar = () => {
-//   return (
-//     <div className="flex" 
-//      style={{ 
-//         backgroundImage: `url(${backgroundImage})` ,
-//         height:"150px"
-//      }}>
-//       <div>
-//         <img src={img1} className="ml-20 mr-10 mt-2" />
-//       </div>
-//       <div className="flex-col">
-//         <p className="text-4xl text-white">Virtual University of Pakistan</p>
-//         <p className="text-white text-2xl mt-1">Federal Government University</p>
-//       </div>
-//       <img src={img2} className="w-14 h-10 ml-4 mt-3"/>
-//     </div>
-//   );
-// };
-
-// export default Navbar;
-
 
 import React from "react";
 import img1 from "../images/logo.png";
